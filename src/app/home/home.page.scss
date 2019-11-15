@@ -1,4 +1,17 @@
-.welcome-card img {
-  max-height: 35vh;
-  overflow: hidden;
+ion-card-content {
+  text-align: center;
+  background-image: url("../../assets/images/brown-leather.jpg");
+  border-radius: 25px;
+  height: 500px;
 }
+ion-card-title {
+  background-color: palegoldenrod;
+  font-family: 'Acme', sans-serif;
+  font-size: 40px;
+  border-radius: 25px;
+  margin-top: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+

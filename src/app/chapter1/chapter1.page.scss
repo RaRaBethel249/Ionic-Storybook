@@ -1,0 +1,25 @@
+p {
+    background-color: pink;
+    font-family: 'Montserrat', sans-serif;
+}
+ion-title {
+    font-family: 'Literata', serif;
+}
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#content {
+    display: table;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#pageFooter {
+    display: table-footer-group;
+}
+#pageFooter:after {
+    counter-increment: page;
+    content: counter(page);
+}
